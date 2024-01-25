@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>HBH 的學習</title>
+        <subtitle></subtitle>
+        <icon>http://example.com/images/favicon.ico</icon>
+        <link>http://example.com</link>
+        <author>
+          <name>HBH</name>
+        </author>
+        <description></description>
+        <language>zh-TW</language>
+        <pubDate>Thu, 25 Jan 2024 15:25:55 +0800</pubDate>
+        <lastBuildDate>Thu, 25 Jan 2024 15:25:55 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2024/01/25/%E7%A7%91%E5%AD%B8%E8%88%87%E4%BA%BA%E6%96%87%E5%A0%B1%E5%91%8A/</guid>
+            <title>科學與人文專題報告 盲人的翻譯器</title>
+            <link>http://example.com/2024/01/25/%E7%A7%91%E5%AD%B8%E8%88%87%E4%BA%BA%E6%96%87%E5%A0%B1%E5%91%8A/</link>
+            <pubDate>Thu, 25 Jan 2024 15:25:55 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;💡這篇文章是讓記錄下我們製作語音辨識與影像辨識的紀錄文件與進度紀錄。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;語音辨識的目標&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#語音辨識的目標&#34;&gt;#&lt;/a&gt; ❓ 語音辨識的目標&lt;/h2&gt;
+&lt;div class=&#34;note success&#34;&gt;
+&lt;p&gt;在 Anaconda jupyter 中使用 Python 寫語音指令。其功能應包括以下幾點：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;它應能重複運作。&lt;/li&gt;
+&lt;li&gt;它應該能夠輸出說話者的聲音。&lt;/li&gt;
+&lt;li&gt;它應該能夠識別 “zh-TW”。&lt;/li&gt;
+&lt;li&gt;它應該能夠在說話者呼吸時自動換行或調整句子。&lt;/li&gt;
+&lt;li&gt;當偵測到說話者沒有說話後，一定時間後應清除所有輸出的句子。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;進度紀錄&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#進度紀錄&#34;&gt;#&lt;/a&gt; 🐾 進度紀錄&lt;/h2&gt;
+&lt;div class=&#34;note success&#34;&gt;
+&lt;p&gt;以下是我們語音辨識的進度&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;單次語音輸入辨識測試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#單次語音輸入辨識測試&#34;&gt;#&lt;/a&gt; 單次語音輸入辨識測試&lt;/h3&gt;
+&lt;p&gt;參考教學影片 : &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0zMURaZmtZUnZJNA==&#34;&gt;[Open Jarvis] 如何讓 Python 自動將語音轉譯成文字？&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python=&#34;&gt;# 測試用的單次收音辨識
+import speech_recognition
+r = speech_recognition.Recognizer()
+
+with speech_recognition.Microphone() as source:
+    audio = r.listen(source)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python=7&#34;&gt;# 將上面的單次收音進行辨識並輸出
+r.recognize_google(audio, language=&#39;zh-TW&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;因為是在 Jupyter 上執行，語音輸入與文字輸出是在兩個不同的 cell 中執行的，故將程式分開擺放。&lt;/p&gt;
+&lt;h3 id=&#34;多次語音輸入辨識測試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多次語音輸入辨識測試&#34;&gt;#&lt;/a&gt; 多次語音輸入辨識測試&lt;/h3&gt;
+&lt;p&gt;參考 Chatgpt 提供的程式&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python=&#34;&gt;import speech_recognition as sr
+import pyttsx3
+import time
+
+# Initialize the recognizer and text-to-speech engines
+recognizer = sr.Recognizer()
+text_to_speech = pyttsx3.init()
+
+# Function to clear the output cell
+def clear_output():
+    from IPython.display import clear_output as clear
+    clear(wait=True)
+
+while True:
+    with sr.Microphone() as source:
+        print(&amp;quot;Listening... Say something:&amp;quot;)
+        audio = recognizer.listen(source)
+
+    try:
+        # Recognize speech using Google Web Speech API
+        text = recognizer.recognize_google(audio, language = &#39;zh-TW&#39;)
+
+        # Output the speaker&#39;s voice
+        print(f&amp;quot;You said: &amp;#123;text&amp;#125;&amp;quot;)
+
+        # Split text into sentences and output with line breaks
+        sentences = text.split(&#39;.&#39;)
+        for sentence in sentences:
+            text_to_speech.say(sentence)
+            text_to_speech.runAndWait()
+
+    except sr.UnknownValueError:
+        print(&amp;quot;Could not understand audio.&amp;quot;)
+
+    except sr.RequestError as e:
+        print(f&amp;quot;Could not request results; &amp;#123;e&amp;#125;&amp;quot;)
+
+    # Add a delay to clear output sentences after a certain period
+    time.sleep(60)  # Adjust the delay in seconds as needed to clear output
+
+    # Clear the output cell
+    clear_output()
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;最終版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最終版本&#34;&gt;#&lt;/a&gt; 最終版本&lt;/h3&gt;
+&lt;p&gt;我們在多次測試語音辨識之後發現了一個問題，就是:&lt;/p&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;「語音辨識會一直偵測說話者的語音直到他停下來」&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;這將會導致無法達成即時翻譯，而是造成如同 RPG 對話般，你一句我一句的回合式對話。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;這是我們最不想見到的事情。&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;audio = recognizer.listen(source, 6, 4)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;audio = recognizer.listen (音訊來源，聽的持續時間，在聽完之後輸出的間隔時間)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;這一條敘述句就是我們的最佳解答，透過限制每一段偵測的時間，與輸出間隔時間，我們可以掌握字幕顯示的字數與長短，進而解決目前所遇到的問題。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python=&#34;&gt;# 目前辨識的最終版本
+import speech_recognition as sr
+import pyttsx3
+import time
+
+# Initialize the recognizer and text-to-speech engines
+recognizer = sr.Recognizer()
+text_to_speech = pyttsx3.init()
+
+# Function to speak text
+def speak_text(text):
+    text_to_speech.say(text)
+    text_to_speech.runAndWait()
+
+# Main loop
+while True:
+    with sr.Microphone() as source:
+        print(&amp;quot;Listening... Say something:&amp;quot;)
+
+        # audio = recognizer.listen(音訊來源，聽的持續時間，在聽完之後輸出)
+        # 合格的數值 1. 6,4  2. 5 4
+        audio = recognizer.listen(source, 4, 4) 
+
+    try:
+        # Recognize speech using the &#39;zh-TW&#39; (Chinese - Taiwan) language model
+        text = recognizer.recognize_google(audio, language=&amp;quot;zh-TW&amp;quot;)
+
+        print(f&amp;quot;You said: &amp;#123;text&amp;#125;&amp;quot;)
+
+        # # Speak the recognized text in real-time
+        # speak_text(f&amp;quot;You said: &amp;#123;text&amp;#125;&amp;quot;)
+
+
+
+    except sr.UnknownValueError:
+        print(&amp;quot;Could not understand audio.&amp;quot;)
+
+    except sr.RequestError as e:
+        print(f&amp;quot;Could not request results; &amp;#123;e&amp;#125;&amp;quot;)
+
+    # Output the result every 2 seconds
+    #time.sleep(2)
+
+    # Clear the console every 15 seconds
+    if time.time() % 15 == 0:
+        print(&amp;quot;\033c&amp;quot;, end=&amp;quot;&amp;quot;)  # Clear the console
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;除錯時間&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#除錯時間&#34;&gt;#&lt;/a&gt; 除錯時間&lt;/h2&gt;
+&lt;h3 id=&#34;函式庫未引用以及定義&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#函式庫未引用以及定義&#34;&gt;#&lt;/a&gt; 函式庫未引用以及定義&lt;/h3&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;我們應該要安裝以下幾個函式庫&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pip install pyaudio&lt;/li&gt;
+&lt;li&gt;pip install SpeechRecognition&lt;/li&gt;
+&lt;li&gt;pip install SpeechRecognition pyttsx3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;偵測不到中文&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#偵測不到中文&#34;&gt;#&lt;/a&gt; 偵測不到中文&lt;/h3&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;以單次語音輸入辨識測試來舉例，因為其進行辨識時，沒有指定是哪種語言模型。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python=&#34;&gt;# 測試用的單次收音辨識
+import speech_recognition
+r = speech_recognition.Recognizer()
+
+with speech_recognition.Microphone() as source:
+    audio = r.listen(source)
+    
+r.recognize_google(audio)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;所以我們應該在第 8 行做更改，指定語言模型:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python=&#34;&gt;# 測試用的單次收音辨識
+import speech_recognition
+r = speech_recognition.Recognizer()
+
+with speech_recognition.Microphone() as source:
+    audio = r.listen(source)
+    
+# &#39;zh-TW&#39; 或者 &#39;zh-CN&#39;
+r.recognize_google(audio, language=&#39;zh-TW&#39;) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;影像辨識測試影片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#影像辨識測試影片&#34;&gt;#&lt;/a&gt; 影像辨識測試影片&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly95b3V0dS5iZS9Ga29XOEszcENlVQ==&#34;&gt;https://youtu.be/FkoW8K3pCeU&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;press to play&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2024/01/25/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/</guid>
+            <title>各位電神以及部落客的朋友們, 大家好!</title>
+            <link>http://example.com/2024/01/25/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9/</link>
+            <pubDate>Thu, 25 Jan 2024 15:00:02 +0800</pubDate>
+            <description><![CDATA[ &lt;ul&gt;
+&lt;li&gt;自我介紹&lt;/li&gt;
+&lt;li&gt;網站相關&lt;/li&gt;
+&lt;li&gt;未來規劃&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2024/01/25/Hexo/Hexo%20%E7%B6%B2%E7%AB%99%E9%81%8B%E8%A1%8C/</guid>
+            <title>Hexo 網站運行</title>
+            <link>http://example.com/2024/01/25/Hexo/Hexo%20%E7%B6%B2%E7%AB%99%E9%81%8B%E8%A1%8C/</link>
+            <category term="Hexo" scheme="http://example.com/categories/Hexo/" />
+            <pubDate>Thu, 25 Jan 2024 14:45:16 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;創建這個部落格之後，我希望自己能夠運行好這一個網站&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2024/01/25/Hexo/Hexo%20%E6%9E%B6%E8%A8%AD%E7%92%B0%E5%A2%83/</guid>
+            <title>Hexo 架構說明</title>
+            <link>http://example.com/2024/01/25/Hexo/Hexo%20%E6%9E%B6%E8%A8%AD%E7%92%B0%E5%A2%83/</link>
+            <category term="Hexo" scheme="http://example.com/categories/Hexo/" />
+            <pubDate>Thu, 25 Jan 2024 14:36:51 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;作為使用 shoka 主題的部落客，我想宣傳這一個主題&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2024/01/24/hello-world/</guid>
+            <title>Hello World</title>
+            <link>http://example.com/2024/01/24/hello-world/</link>
+            <pubDate>Wed, 24 Jan 2024 15:19:27 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;&lt;a href=&#34;//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css&#34;&gt;//cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css&lt;/a&gt;&amp;quot;&amp;gt;&lt;/p&gt;
+&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
