@@ -1,0 +1,5 @@
+在 head.njk 中新增 
+    <% if (theme.google_analytics.enabled && theme.google_analytics.id){ %>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-<%= theme.google_adsense.google_ad_client_id %>" crossorigin="anonymous"></script>
+    <% } %>
+
