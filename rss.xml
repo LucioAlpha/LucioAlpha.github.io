@@ -3,21 +3,127 @@
     <channel>
         <title>HBH 的學習</title>
         <subtitle></subtitle>
-        <icon>http://example.com/images/favicon.ico</icon>
-        <link>http://example.com</link>
+        <icon>https://lucioalpha.github.io/project/images/favicon.ico</icon>
+        <link>https://LucioAlpha.github.io/project</link>
         <author>
           <name>HBH</name>
         </author>
         <description></description>
         <language>zh-TW</language>
-        <pubDate>Tue, 06 Feb 2024 14:13:00 +0800</pubDate>
-        <lastBuildDate>Tue, 06 Feb 2024 14:13:00 +0800</lastBuildDate>
+        <pubDate>Mon, 18 Mar 2024 13:43:40 +0800</pubDate>
+        <lastBuildDate>Mon, 18 Mar 2024 13:43:40 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">http://example.com/2024/02/06/Markdown/Markdown%20%E4%BB%8B%E7%B4%B9/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/03/18/%E7%AD%86%E8%A8%98%E8%BB%9F%E9%AB%94/Notion%20vs%20Obsidian/</guid>
+            <title>Notion vs. Obsidian</title>
+            <link>https://lucioalpha.github.io/project/2024/03/18/%E7%AD%86%E8%A8%98%E8%BB%9F%E9%AB%94/Notion%20vs%20Obsidian/</link>
+            <category term="筆記軟體" scheme="https://lucioalpha.github.io/project/categories/%E7%AD%86%E8%A8%98%E8%BB%9F%E9%AB%94/" />
+            <category term="Obsidian,Notion" scheme="https://lucioalpha.github.io/project/tags/Obsidian-Notion/" />
+            <pubDate>Mon, 18 Mar 2024 13:43:40 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;創建日期: March 17, 2024 6:28 PM&lt;/p&gt;
+&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;在多個筆記軟體充斥的現代，Notion、Obsidian 無疑是打字筆記中的重要代表，就連部分大學教授都要求學生學會使用，並以此來繳交報告或作業。&lt;/p&gt;
+&lt;p&gt;這篇文章將會對 Notion 與 Obsidian 進行比較，幫助你選擇最適合自己的筆記軟體。&lt;/p&gt;
+&lt;h1 id=&#34;重點一notion-與-obsidian-個別的特點&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重點一notion-與-obsidian-個別的特點&#34;&gt;#&lt;/a&gt; 重點一：Notion 與 Obsidian 個別的特點&lt;/h1&gt;
+&lt;h2 id=&#34;軟體宗旨&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#軟體宗旨&#34;&gt;#&lt;/a&gt; 軟體宗旨&lt;/h2&gt;
+&lt;p&gt;在比較 Notion 與 Obsidian 之前，兩個軟體的主要功能可以從它們的官網上窺探一二，&lt;/p&gt;
+&lt;h3 id=&#34;notion合作-雲端-專案取向&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#notion合作-雲端-專案取向&#34;&gt;#&lt;/a&gt; Notion：合作 &amp;amp; 雲端 &amp;amp; 專案取向&lt;/h3&gt;
+&lt;p&gt;Notion 是一個多功能的協作和組織工具，它結合了筆記、任務管理、項目計劃、文檔編寫和團隊協作等功能。Notion 的設計目的是為了提供一個集成的工作區，使個人用戶和團隊能夠在同一個平台上完成各種工作。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wikis 百科&lt;/strong&gt;：藉由將文章分門別類，創建屬於自己的知識庫。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workspace 團隊工作區&lt;/strong&gt;：透過雲端共享的能力，讓工作區有如同 Google 協作的功。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Projects 專案取向&lt;/strong&gt;：每一篇筆記下都可以內嵌更多筆記，不用再為了收納而煩惱。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;雲端存檔&lt;/strong&gt;：任何時刻、任何裝置，只要有 Notion 就可以雲端編輯、存檔&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多功能性：&lt;/strong&gt; Notion 支持多種內容類型，包括文本、表格、代碼、嵌入的媒體和其他應用程序的集成。這使得用戶可以在單一平台上進行多樣化的工作。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;結構化的內容組織：&lt;/strong&gt; Notion 使用了基於區塊的結構，允許用戶將內容按照區塊的方式進行組織，從而更靈活地排列和設計文檔。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;Notion%20vs%20Obsidian%20e394d14ea98148e9a99372346499a74b/Untitled.png&#34; alt=&#34;Untitled&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;obsidian&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#obsidian&#34;&gt;#&lt;/a&gt; Obsidian&lt;/h3&gt;
+&lt;p&gt;Obsidian 是一款基於 Markdown 語言的知識管理和筆記軟件。它提供了一個結構化的工作空間，讓用戶可以創建和組織自己的筆記、文檔、想法和關聯。Obsidian 強調了跨文件的連結和關聯，這使得用戶可以更容易地在不同筆記之間建立關聯，形成思維導圖式的結構。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;離線存取&lt;/strong&gt;：編輯筆記不受到任何網路連線的影響，任何筆記皆以本地存取&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sharpen your thinking&lt;/strong&gt;：專注強化你的思考能力&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link &amp;amp; Graph&lt;/strong&gt;：透過連結與反向連結的方式，去關聯出筆記之間的關係&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Canvas 白板&lt;/strong&gt;：透過一塊無限延伸的白板，讓使用者可以像警探一樣對單一主題做連結與思考&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;插件和自定義：&lt;/strong&gt; 可以根據自己的需求添加不同的功能和擴展，並進行界面的自定義。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;Notion%20vs%20Obsidian%20e394d14ea98148e9a99372346499a74b/Untitled%201.png&#34; alt=&#34;Untitled&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;Notion%20vs%20Obsidian%20e394d14ea98148e9a99372346499a74b/Untitled%202.png&#34; alt=&#34;Untitled&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;Notion%20vs%20Obsidian%20e394d14ea98148e9a99372346499a74b/Untitled%203.png&#34; alt=&#34;Untitled&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;重點二兩者的優缺點&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重點二兩者的優缺點&#34;&gt;#&lt;/a&gt; 重點二：兩者的優缺點&lt;/h1&gt;
+&lt;p&gt;Obsidian 與 Notion 都提供了使用者良好的使用環境、筆記功能，但 Notion 更注重於多媒體、自定義頁面布局、雲端工作區，而 Obsidian 則是專注讓使用者的知識做連結、專一的對某個主題做深入的研究。&lt;/p&gt;
+&lt;h2 id=&#34;簡易對照表格&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#簡易對照表格&#34;&gt;#&lt;/a&gt; 簡易對照表格&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Notion&lt;/th&gt;
+&lt;th&gt;Obsidian&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;可直接於網路公開發表&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;雲端同步功能&lt;/td&gt;
+&lt;td&gt;內建，編輯時會同步到雲端&lt;/td&gt;
+&lt;td&gt;本身沒有，需搭配其他工具，如: OneDrive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;團隊協作功能&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;開發者額外擴充功能&lt;/td&gt;
+&lt;td&gt;無，須等官方更新&lt;/td&gt;
+&lt;td&gt;有，可自行下載擴充模組自訂義&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;筆記模板&lt;/td&gt;
+&lt;td&gt;有，英文為主&lt;/td&gt;
+&lt;td&gt;有，需自製或下載&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;資料儲存空間上限&lt;/td&gt;
+&lt;td&gt;單筆資料傳輸 5 MB&lt;/td&gt;
+&lt;td&gt;無限制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;存取筆記的方式&lt;/td&gt;
+&lt;td&gt;資料庫結構&lt;/td&gt;
+&lt;td&gt;巣狀資料夾結構&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;筆記搜尋功能&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;需熟練 Markdown 語法&lt;/td&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;上手難度&lt;/td&gt;
+&lt;td&gt;較低&lt;/td&gt;
+&lt;td&gt;較高&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;總結&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; 總結&lt;/h1&gt;
+&lt;p&gt;我兩種筆記軟體都有使用，就一般的通用性來說，我認為 Notion 可以勝任大部分團隊的需求，日常紀錄的所需。而 Obsidian 則是當你需要對單一主題進行深入探討，或簡單撰寫筆記草稿時會用到的工具。&lt;/p&gt;
+&lt;p&gt;關於兩者的使用，可以查看我部落格上的使用教學，從中進一步認識兩個筆記軟體，自行探索與體悟使用心得。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/02/06/Markdown/Markdown%20%E4%BB%8B%E7%B4%B9/</guid>
             <title>Markdown 介紹</title>
-            <link>http://example.com/2024/02/06/Markdown/Markdown%20%E4%BB%8B%E7%B4%B9/</link>
-            <category term="Markdown" scheme="http://example.com/categories/Markdown/" />
-            <category term="Markdown" scheme="http://example.com/tags/Markdown/" />
+            <link>https://lucioalpha.github.io/project/2024/02/06/Markdown/Markdown%20%E4%BB%8B%E7%B4%B9/</link>
+            <category term="Markdown" scheme="https://lucioalpha.github.io/project/categories/Markdown/" />
+            <category term="Markdown" scheme="https://lucioalpha.github.io/project/tags/Markdown/" />
             <pubDate>Tue, 06 Feb 2024 14:13:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;什麼是markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什麼是markdown&#34;&gt;#&lt;/a&gt; 什麼是 Markdown&lt;/h1&gt;
 &lt;p&gt;Markdown 是一種輕量級標記語言，旨在用簡單且易讀易寫的方式來撰寫文檔。它使用純文本格式編寫，並且可以轉換為 HTML 等格式，以方便在網頁上顯示。&lt;/p&gt;
@@ -52,12 +158,12 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/02/06/Markdown/Notion/Notion%E4%BB%8B%E7%B4%B9/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/02/06/Markdown/Notion/Notion%E4%BB%8B%E7%B4%B9/</guid>
             <title>Notion 介紹</title>
-            <link>http://example.com/2024/02/06/Markdown/Notion/Notion%E4%BB%8B%E7%B4%B9/</link>
-            <category term="Markdown" scheme="http://example.com/categories/Markdown/" />
-            <category term="Notion" scheme="http://example.com/categories/Markdown/Notion/" />
-            <category term="Markdown,Notion" scheme="http://example.com/tags/Markdown-Notion/" />
+            <link>https://lucioalpha.github.io/project/2024/02/06/Markdown/Notion/Notion%E4%BB%8B%E7%B4%B9/</link>
+            <category term="Markdown" scheme="https://lucioalpha.github.io/project/categories/Markdown/" />
+            <category term="Notion" scheme="https://lucioalpha.github.io/project/categories/Markdown/Notion/" />
+            <category term="Markdown,Notion" scheme="https://lucioalpha.github.io/project/tags/Markdown-Notion/" />
             <pubDate>Tue, 06 Feb 2024 14:04:05 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm90aW9uLnNvL3Byb2R1Y3Q=&#34;&gt;Notion 官網連結&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&#34;什麼是-notion&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什麼是-notion&#34;&gt;#&lt;/a&gt; 什麼是 Notion？&lt;/h1&gt;
@@ -86,11 +192,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/02/06/Markdown/Markdown%E8%AA%9E%E6%B3%95/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/02/06/Markdown/Markdown%E8%AA%9E%E6%B3%95/</guid>
             <title>Markdown 語法</title>
-            <link>http://example.com/2024/02/06/Markdown/Markdown%E8%AA%9E%E6%B3%95/</link>
-            <category term="Markdown" scheme="http://example.com/categories/Markdown/" />
-            <category term="Markdown" scheme="http://example.com/tags/Markdown/" />
+            <link>https://lucioalpha.github.io/project/2024/02/06/Markdown/Markdown%E8%AA%9E%E6%B3%95/</link>
+            <category term="Markdown" scheme="https://lucioalpha.github.io/project/categories/Markdown/" />
+            <category term="Markdown" scheme="https://lucioalpha.github.io/project/tags/Markdown/" />
             <pubDate>Tue, 06 Feb 2024 13:49:16 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;此篇文章擷取自&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXJrZG93bi50dy8jb3ZlcnZpZXc=&#34;&gt; Markdown 中文文件官網&lt;/span&gt;&lt;/p&gt;
@@ -645,11 +751,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Simply%20Emirp/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Simply%20Emirp/</guid>
             <title>Simply Emirp</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Simply%20Emirp/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Simply%20Emirp/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -679,11 +785,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Sort!%20Sort!!%20and%20Sort!!!/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Sort!%20Sort!!%20and%20Sort!!!/</guid>
             <title>Sort! Sort!! and Sort!!!</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Sort!%20Sort!!%20and%20Sort!!!/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Sort!%20Sort!!%20and%20Sort!!!/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -717,11 +823,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Back%20to%20School%20Physics/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Back%20to%20School%20Physics/</guid>
             <title>Back to School Physics</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Back%20to%20School%20Physics/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Back%20to%20School%20Physics/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -746,11 +852,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Divide,%20But%20Not%20Quite%20Conquer!/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Divide,%20But%20Not%20Quite%20Conquer!/</guid>
             <title>Divide, But Not Quite Conquer!</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Divide,%20But%20Not%20Quite%20Conquer!/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Divide,%20But%20Not%20Quite%20Conquer!/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -794,11 +900,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hardwood%20Species/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hardwood%20Species/</guid>
             <title>Hardwood Species</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hardwood%20Species/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hardwood%20Species/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -826,47 +932,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Jolly%20Jumpers/</guid>
-            <title>Jolly Jumpers</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Jolly%20Jumpers/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
-            <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;星星難度: ⭐&lt;br /&gt;
-類型：基礎題&lt;br /&gt;
-題號: UVA10038&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;題目一覽照片或pdf檔&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#題目一覽照片或pdf檔&#34;&gt;#&lt;/a&gt; 題目一覽（照片或 PDF 檔）&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;Jolly%20Jumpers%202b9bfff562e442f78406327c6a652115/p10038.pdf&#34;&gt;p10038.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;中文翻譯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中文翻譯&#34;&gt;#&lt;/a&gt; 中文翻譯&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;每一列輸入的第一個數  &lt;code&gt;n&lt;/code&gt;  代表接下來有  &lt;code&gt;n&lt;/code&gt;  筆數字要輸入&lt;/li&gt;
-&lt;li&gt;相鄰兩數絕對值的差要介於  &lt;code&gt;1 ~ n-1&lt;/code&gt;  的區間&lt;/li&gt;
-&lt;li&gt;而且所有的差要恰好擁有從  &lt;code&gt;1 ~ n-1&lt;/code&gt;  的所有數字。&lt;/li&gt;
-&lt;li&gt;同時符合以上，才能稱作  &lt;code&gt;Jolly&lt;/code&gt;  ，反之則稱為  &lt;code&gt;Not jolly&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;程式碼一覽&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程式碼一覽&#34;&gt;#&lt;/a&gt; 程式碼一覽&lt;/h2&gt;
-&lt;h3 id=&#34;c版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c版本&#34;&gt;#&lt;/a&gt; C++ 版本&lt;/h3&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;bits/stdc++.h&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;solve&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;	&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 算相差 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; num1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; num2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; check &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;abs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;num1&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;num2&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;check &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; check &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; check&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 排列 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; min_index &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;min_index&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				min_index &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; j&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token function&#34;&gt;swap&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;min_index&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 對照有無符合 1~n-1 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt;dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;cin&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;eof&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;solve&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Jolly&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Not jolly&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;解題思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解題思路&#34;&gt;#&lt;/a&gt; 解題思路&lt;/h2&gt;
-&lt;p&gt;這是 2023 年程式設計 (i、ii) 的期末考題&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../../%E8%AE%80%E6%9B%B8%E6%9C%83%E9%A6%96%E9%A0%81%20da2b876d04d3429187bf9643479ec5ff/%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98%E7%B8%BD%E8%A6%BD%20a775e73047084a9fb053dcf3256241ae/%E6%89%80%E6%9C%89%E7%AD%86%E8%A8%98%E4%B9%8B%E5%AD%B8%E5%B9%B4%E5%BA%A6%E4%B8%8A%E4%B8%8B%E5%AD%B8%E6%9C%9F%E7%B8%BD%E8%A6%BD%2063975aa1981b479099eb27a8995d1576/2023%20%E4%B8%8A%E5%AD%B8%E6%9C%9F%203b660802002f4e89ba641d508f08e109/%E6%89%80%E6%9C%89%E8%AA%B2%E7%A8%8B%200cbaa55dafff44cf8a6026b44452a805/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%20i%E3%80%81ii%20f0a347ae13f944f8b2afa1ef15063464/%E7%AD%86%E8%A8%98%E7%B8%BD%E8%A6%BD%20b843dbf89a2a43b0ab6cd1d36f300a48/1%203%20%E6%9C%9F%E6%9C%AB%E8%80%83%E9%A1%8C%E7%9B%AE%2048740628ec944e778878b8258f25c767.md&#34;&gt;1/3 期末考題目&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;相鄰兩數相減再絕對值，先行檢查是否符合介於  &lt;code&gt;1 ~ n-1&lt;/code&gt;  區間&lt;/li&gt;
-&lt;li&gt;創建一個 dif 陣列儲存所有數字的絕對值差&lt;/li&gt;
-&lt;li&gt;從小到大排列好 dif 陣列&lt;/li&gt;
-&lt;li&gt;因為  &lt;code&gt;n&lt;/code&gt;  個數只會有  &lt;code&gt;n-1&lt;/code&gt;  個差值，所以只要有一個數不符合的話，整個數列就不是 Jolly&lt;/li&gt;
-&lt;li&gt;用 for 迴圈判斷數字有沒有符合  &lt;code&gt;1 ~ n-1&lt;/code&gt;  的排列順序&lt;/li&gt;
-&lt;li&gt;輸出結果&lt;/li&gt;
-&lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Funny%20Encryption%20Method/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Funny%20Encryption%20Method/</guid>
             <title>Funny Encryption Method</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Funny%20Encryption%20Method/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Funny%20Encryption%20Method/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -947,11 +1017,73 @@ _   底線
 &lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Hexadecimal_to_Decimal&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; result &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; exp &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; m&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	        m &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	        n &lt;span class=&#34;token operator&#34;&gt;/=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	        result &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; m&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;pow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;16&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; exp&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	        &lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;exp&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; result &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Odd%20Sum/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Jolly%20Jumpers/</guid>
+            <title>Jolly Jumpers</title>
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Jolly%20Jumpers/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
+            <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;星星難度: ⭐&lt;br /&gt;
+類型：基礎題&lt;br /&gt;
+題號: UVA10038&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;題目一覽照片或pdf檔&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#題目一覽照片或pdf檔&#34;&gt;#&lt;/a&gt; 題目一覽（照片或 PDF 檔）&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;Jolly%20Jumpers%202b9bfff562e442f78406327c6a652115/p10038.pdf&#34;&gt;p10038.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;中文翻譯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中文翻譯&#34;&gt;#&lt;/a&gt; 中文翻譯&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;每一列輸入的第一個數  &lt;code&gt;n&lt;/code&gt;  代表接下來有  &lt;code&gt;n&lt;/code&gt;  筆數字要輸入&lt;/li&gt;
+&lt;li&gt;相鄰兩數絕對值的差要介於  &lt;code&gt;1 ~ n-1&lt;/code&gt;  的區間&lt;/li&gt;
+&lt;li&gt;而且所有的差要恰好擁有從  &lt;code&gt;1 ~ n-1&lt;/code&gt;  的所有數字。&lt;/li&gt;
+&lt;li&gt;同時符合以上，才能稱作  &lt;code&gt;Jolly&lt;/code&gt;  ，反之則稱為  &lt;code&gt;Not jolly&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;程式碼一覽&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程式碼一覽&#34;&gt;#&lt;/a&gt; 程式碼一覽&lt;/h2&gt;
+&lt;h3 id=&#34;c版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c版本&#34;&gt;#&lt;/a&gt; C++ 版本&lt;/h3&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;bits/stdc++.h&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;solve&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;	&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 算相差 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; num1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; num2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; check &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;abs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;num1&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;num2&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;check &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; check &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; check&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 排列 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; min_index &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;min_index&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				min_index &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; j&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token function&#34;&gt;swap&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;min_index&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 對照有無符合 1~n-1 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt;dif&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;cin&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;eof&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; arr&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;solve&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;arr&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Jolly&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;Not jolly&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;解題思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解題思路&#34;&gt;#&lt;/a&gt; 解題思路&lt;/h2&gt;
+&lt;p&gt;這是 2023 年程式設計 (i、ii) 的期末考題&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../../%E8%AE%80%E6%9B%B8%E6%9C%83%E9%A6%96%E9%A0%81%20da2b876d04d3429187bf9643479ec5ff/%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98%E7%B8%BD%E8%A6%BD%20a775e73047084a9fb053dcf3256241ae/%E6%89%80%E6%9C%89%E7%AD%86%E8%A8%98%E4%B9%8B%E5%AD%B8%E5%B9%B4%E5%BA%A6%E4%B8%8A%E4%B8%8B%E5%AD%B8%E6%9C%9F%E7%B8%BD%E8%A6%BD%2063975aa1981b479099eb27a8995d1576/2023%20%E4%B8%8A%E5%AD%B8%E6%9C%9F%203b660802002f4e89ba641d508f08e109/%E6%89%80%E6%9C%89%E8%AA%B2%E7%A8%8B%200cbaa55dafff44cf8a6026b44452a805/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%20i%E3%80%81ii%20f0a347ae13f944f8b2afa1ef15063464/%E7%AD%86%E8%A8%98%E7%B8%BD%E8%A6%BD%20b843dbf89a2a43b0ab6cd1d36f300a48/1%203%20%E6%9C%9F%E6%9C%AB%E8%80%83%E9%A1%8C%E7%9B%AE%2048740628ec944e778878b8258f25c767.md&#34;&gt;1/3 期末考題目&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;相鄰兩數相減再絕對值，先行檢查是否符合介於  &lt;code&gt;1 ~ n-1&lt;/code&gt;  區間&lt;/li&gt;
+&lt;li&gt;創建一個 dif 陣列儲存所有數字的絕對值差&lt;/li&gt;
+&lt;li&gt;從小到大排列好 dif 陣列&lt;/li&gt;
+&lt;li&gt;因為  &lt;code&gt;n&lt;/code&gt;  個數只會有  &lt;code&gt;n-1&lt;/code&gt;  個差值，所以只要有一個數不符合的話，整個數列就不是 Jolly&lt;/li&gt;
+&lt;li&gt;用 for 迴圈判斷數字有沒有符合  &lt;code&gt;1 ~ n-1&lt;/code&gt;  的排列順序&lt;/li&gt;
+&lt;li&gt;輸出結果&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Problem%20J%20Summing%20Digits/</guid>
+            <title>Problem J Summing Digits</title>
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Problem%20J%20Summing%20Digits/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
+            <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;星星難度: ⭐&lt;br /&gt;
+類型：基礎題&lt;br /&gt;
+題號: UVA11332&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;題目一覽照片或pdf檔&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#題目一覽照片或pdf檔&#34;&gt;#&lt;/a&gt; 題目一覽（照片或 PDF 檔）&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;Problem%20J%20Summing%20Digits%202fc9b112c10c461eacd20cf50dcb7d68/p10222.pdf&#34;&gt;p10222.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;中文翻譯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中文翻譯&#34;&gt;#&lt;/a&gt; 中文翻譯&lt;/h2&gt;
+&lt;p&gt;定義一個函式 f (n) 是所有十進位數字位數的總和，再 f (f (n))、f (f (f (n)))……，直到只剩下個位數為止並定義該值為 g (n)。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;輸入的每一行會有一個正整數 n，其值最大到 2×10^9&lt;/li&gt;
+&lt;li&gt;必須輸出 g (n)。輸入是以 0 值做為結束，該值不需要輸出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;程式碼一覽&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程式碼一覽&#34;&gt;#&lt;/a&gt; 程式碼一覽&lt;/h2&gt;
+&lt;h3 id=&#34;c版本語法改一改c版本是一模一樣的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c版本語法改一改c版本是一模一樣的&#34;&gt;#&lt;/a&gt; C++ 版本（語法改一改，Ｃ版本是一模一樣的）&lt;/h3&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; sum &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        sum &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        n &lt;span class=&#34;token operator&#34;&gt;/=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; sum&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cin&lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt;n &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;cin&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;eof&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        	&lt;span class=&#34;token keyword&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; ans &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ans &lt;span class=&#34;token operator&#34;&gt;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ans &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ans&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; ans &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;解題思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解題思路&#34;&gt;#&lt;/a&gt; 解題思路&lt;/h2&gt;
+&lt;p&gt;用遞迴 + 迴圈即可解決這一題，用【%】取個位數的數字，【/=】將位數向下推移一位&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Odd%20Sum/</guid>
             <title>Odd Sum</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Odd%20Sum/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Odd%20Sum/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -977,37 +1109,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Problem%20J%20Summing%20Digits/</guid>
-            <title>Problem J Summing Digits</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Problem%20J%20Summing%20Digits/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
-            <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;星星難度: ⭐&lt;br /&gt;
-類型：基礎題&lt;br /&gt;
-題號: UVA11332&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;題目一覽照片或pdf檔&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#題目一覽照片或pdf檔&#34;&gt;#&lt;/a&gt; 題目一覽（照片或 PDF 檔）&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;Problem%20J%20Summing%20Digits%202fc9b112c10c461eacd20cf50dcb7d68/p10222.pdf&#34;&gt;p10222.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;中文翻譯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中文翻譯&#34;&gt;#&lt;/a&gt; 中文翻譯&lt;/h2&gt;
-&lt;p&gt;定義一個函式 f (n) 是所有十進位數字位數的總和，再 f (f (n))、f (f (f (n)))……，直到只剩下個位數為止並定義該值為 g (n)。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;輸入的每一行會有一個正整數 n，其值最大到 2×10^9&lt;/li&gt;
-&lt;li&gt;必須輸出 g (n)。輸入是以 0 值做為結束，該值不需要輸出&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;程式碼一覽&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程式碼一覽&#34;&gt;#&lt;/a&gt; 程式碼一覽&lt;/h2&gt;
-&lt;h3 id=&#34;c版本語法改一改c版本是一模一樣的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c版本語法改一改c版本是一模一樣的&#34;&gt;#&lt;/a&gt; C++ 版本（語法改一改，Ｃ版本是一模一樣的）&lt;/h3&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; sum &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        sum &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        n &lt;span class=&#34;token operator&#34;&gt;/=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; sum&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cin&lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt;n &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;cin&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;eof&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        	&lt;span class=&#34;token keyword&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; ans &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ans &lt;span class=&#34;token operator&#34;&gt;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            ans &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ans&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; ans &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;解題思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解題思路&#34;&gt;#&lt;/a&gt; 解題思路&lt;/h2&gt;
-&lt;p&gt;用遞迴 + 迴圈即可解決這一題，用【%】取個位數的數字，【/=】將位數向下推移一位&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/TEX%20Quotes/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/TEX%20Quotes/</guid>
             <title>TEX Quotes</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/TEX%20Quotes/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/TEX%20Quotes/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -1053,11 +1159,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%20Hotel%20with%20Infinite%20Rooms/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%20Hotel%20with%20Infinite%20Rooms/</guid>
             <title>The Hotel with Infinite Rooms</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%20Hotel%20with%20Infinite%20Rooms/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%20Hotel%20with%20Infinite%20Rooms/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -1111,11 +1217,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/All%20You%20Need%20Is%20Love/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/All%20You%20Need%20Is%20Love/</guid>
             <title>All You Need Is Love</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/All%20You%20Need%20Is%20Love/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/All%20You%20Need%20Is%20Love/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -1160,11 +1266,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Cola/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Cola/</guid>
             <title>Cola</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Cola/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Cola/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -1192,11 +1298,11 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Can%20You%20Solve%20It/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Can%20You%20Solve%20It/</guid>
             <title>Can You Solve It</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Can%20You%20Solve%20It/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Can%20You%20Solve%20It/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -1235,11 +1341,46 @@ _   底線
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Eb%20Alto%20Saxophone%20Player/</guid>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Doom&#39;s%20Day%20Algorithm/</guid>
+            <title>Doom&#39;s Day Algorithm</title>
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Doom&#39;s%20Day%20Algorithm/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
+            <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;星星難度: ⭐&lt;br /&gt;
+類型：基礎題&lt;br /&gt;
+題號: UVA12019&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;題目一覽照片或pdf檔&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#題目一覽照片或pdf檔&#34;&gt;#&lt;/a&gt; 題目一覽（照片或 PDF 檔）&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;Doom&#39;s%20Day%20Algorithm%2056acb4d876f2456bb067f960ba14bb0a/p12019.pdf&#34;&gt;p12019.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;中文翻譯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中文翻譯&#34;&gt;#&lt;/a&gt; 中文翻譯&lt;/h2&gt;
+&lt;p&gt;給你一個日期，算出在 2011 是星期幾，已知下列日期皆為星期一，且 2011 年不是閏年&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/4&lt;/li&gt;
+&lt;li&gt;6/6&lt;/li&gt;
+&lt;li&gt;8/8&lt;/li&gt;
+&lt;li&gt;10/10&lt;/li&gt;
+&lt;li&gt;12/12&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;輸入：第一列給定  &lt;code&gt;n&lt;/code&gt;  接下來有  &lt;code&gt;n&lt;/code&gt;  筆日期輸入，日期會以【月　日】的方式輸入&lt;/p&gt;
+&lt;h2 id=&#34;程式碼一覽&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程式碼一覽&#34;&gt;#&lt;/a&gt; 程式碼一覽&lt;/h2&gt;
+&lt;h3 id=&#34;c版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c版本&#34;&gt;#&lt;/a&gt; C++ 版本&lt;/h3&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; days&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;28&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	string day&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Friday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Saturday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Sunday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Monday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Tuesday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Wednesday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Thursday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; m&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; d&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; cs &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; cs &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; cs&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; m &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; d&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; m &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				s&lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt;days&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			s&lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt;d&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cout&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;day&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;s&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;解題思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解題思路&#34;&gt;#&lt;/a&gt; 解題思路&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;透過題意計算，4/4 是 2011 年的第 93 天也是星期一，而【93 % 7 = 2】得知 2011 年的第一天（1/1）是星期五&lt;/li&gt;
+&lt;li&gt;先用字串陣列存取星期一～星期日的名稱，整數陣列存取每個月的總天數&lt;/li&gt;
+&lt;li&gt;將月轉換為天數，再加上該月的天數&lt;/li&gt;
+&lt;li&gt;輸出【 第 3 步驟 % 7 】的星期&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Eb%20Alto%20Saxophone%20Player/</guid>
             <title>Eb Alto Saxophone Player</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Eb%20Alto%20Saxophone%20Player/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
+            <link>https://lucioalpha.github.io/project/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Eb%20Alto%20Saxophone%20Player/</link>
+            <category term="CPE" scheme="https://lucioalpha.github.io/project/categories/CPE/" />
+            <category term="一顆星" scheme="https://lucioalpha.github.io/project/categories/CPE/1star/" />
             <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;星星難度: ⭐&lt;br /&gt;
@@ -1512,191 +1653,6 @@ B: finger 1~2&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Doom&#39;s%20Day%20Algorithm/</guid>
-            <title>Doom&#39;s Day Algorithm</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Doom&#39;s%20Day%20Algorithm/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
-            <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;星星難度: ⭐&lt;br /&gt;
-類型：基礎題&lt;br /&gt;
-題號: UVA12019&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;題目一覽照片或pdf檔&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#題目一覽照片或pdf檔&#34;&gt;#&lt;/a&gt; 題目一覽（照片或 PDF 檔）&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;Doom&#39;s%20Day%20Algorithm%2056acb4d876f2456bb067f960ba14bb0a/p12019.pdf&#34;&gt;p12019.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;中文翻譯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中文翻譯&#34;&gt;#&lt;/a&gt; 中文翻譯&lt;/h2&gt;
-&lt;p&gt;給你一個日期，算出在 2011 是星期幾，已知下列日期皆為星期一，且 2011 年不是閏年&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;4/4&lt;/li&gt;
-&lt;li&gt;6/6&lt;/li&gt;
-&lt;li&gt;8/8&lt;/li&gt;
-&lt;li&gt;10/10&lt;/li&gt;
-&lt;li&gt;12/12&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;輸入：第一列給定  &lt;code&gt;n&lt;/code&gt;  接下來有  &lt;code&gt;n&lt;/code&gt;  筆日期輸入，日期會以【月　日】的方式輸入&lt;/p&gt;
-&lt;h2 id=&#34;程式碼一覽&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程式碼一覽&#34;&gt;#&lt;/a&gt; 程式碼一覽&lt;/h2&gt;
-&lt;h3 id=&#34;c版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c版本&#34;&gt;#&lt;/a&gt; C++ 版本&lt;/h3&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; days&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;28&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	string day&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Friday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Saturday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Sunday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Monday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Tuesday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Wednesday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Thursday&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; m&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; d&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; cs &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; cs &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; cs&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; m &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; d&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; m &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				s&lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt;days&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			s&lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt;d&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cout&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;day&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;s&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;解題思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解題思路&#34;&gt;#&lt;/a&gt; 解題思路&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;透過題意計算，4/4 是 2011 年的第 93 天也是星期一，而【93 % 7 = 2】得知 2011 年的第一天（1/1）是星期五&lt;/li&gt;
-&lt;li&gt;先用字串陣列存取星期一～星期日的名稱，整數陣列存取每個月的總天數&lt;/li&gt;
-&lt;li&gt;將月轉換為天數，再加上該月的天數&lt;/li&gt;
-&lt;li&gt;輸出【 第 3 步驟 % 7 】的星期&lt;/li&gt;
-&lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hartals/</guid>
-            <title>Hartals</title>
-            <link>http://example.com/2024/01/31/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hartals/</link>
-            <category term="CPE" scheme="http://example.com/categories/CPE/" />
-            <category term="一顆星" scheme="http://example.com/categories/CPE/1star/" />
-            <pubDate>Wed, 31 Jan 2024 15:01:44 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;星星難度: ⭐&lt;br /&gt;
-類型：基礎題&lt;br /&gt;
-題號: UVA10050&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;題目一覽照片或pdf檔&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#題目一覽照片或pdf檔&#34;&gt;#&lt;/a&gt; 題目一覽（照片或 PDF 檔）&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;Hartals%203e0a5513dddd41249b587290f09f52d4/p10050.pdf&#34;&gt;p10050.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;中文翻譯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中文翻譯&#34;&gt;#&lt;/a&gt; 中文翻譯&lt;/h2&gt;
-&lt;p&gt;一個社會研究組織採用了一組簡單的參數來模擬我們國家政黨運作的行為&lt;/p&gt;
-&lt;p&gt;參數之一是一個正整數 h，h 稱為罷會 (hartal) 參數，它表示同一個政黨連續兩次罷會的間隔天數&lt;/p&gt;
-&lt;p&gt;儘管該參數有點過於簡單，但還是能用於預測政黨罷會造成的影響。&lt;/p&gt;
-&lt;h3 id=&#34;測資說明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#測資說明&#34;&gt;#&lt;/a&gt; 測資說明：&lt;/h3&gt;
-&lt;p&gt;考慮現在有三個政黨。假設 h1 = 3，h2 = 4，h3 = 8，其中 hi 是第 i 方的罷會參數&lt;br /&gt;
-現在，我們將模擬這三個方在 N = 14 天的罷會行為&lt;br /&gt;
-模擬的&lt;strong&gt;起始天一定是星期天&lt;/strong&gt;，並假設在&lt;strong&gt;每週的假日 (星期五和星期六) 不會有任何罷會情形&lt;/strong&gt;。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;天數&lt;/th&gt;
-&lt;th&gt;1&lt;/th&gt;
-&lt;th&gt;2&lt;/th&gt;
-&lt;th&gt;3&lt;/th&gt;
-&lt;th&gt;4&lt;/th&gt;
-&lt;th&gt;5&lt;/th&gt;
-&lt;th&gt;6&lt;/th&gt;
-&lt;th&gt;7&lt;/th&gt;
-&lt;th&gt;8&lt;/th&gt;
-&lt;th&gt;9&lt;/th&gt;
-&lt;th&gt;10&lt;/th&gt;
-&lt;th&gt;11&lt;/th&gt;
-&lt;th&gt;12&lt;/th&gt;
-&lt;th&gt;13&lt;/th&gt;
-&lt;th&gt;14&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;星期&lt;/td&gt;
-&lt;td&gt;日&lt;/td&gt;
-&lt;td&gt;一&lt;/td&gt;
-&lt;td&gt;二&lt;/td&gt;
-&lt;td&gt;三&lt;/td&gt;
-&lt;td&gt;四&lt;/td&gt;
-&lt;td&gt;五&lt;/td&gt;
-&lt;td&gt;六&lt;/td&gt;
-&lt;td&gt;日&lt;/td&gt;
-&lt;td&gt;一&lt;/td&gt;
-&lt;td&gt;二&lt;/td&gt;
-&lt;td&gt;三&lt;/td&gt;
-&lt;td&gt;四&lt;/td&gt;
-&lt;td&gt;五&lt;/td&gt;
-&lt;td&gt;六&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;h1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;h2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;h3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;總數&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;上面的模擬顯示，在 14 天內將會罷會 5 天 (分別在第 3、4、8、9 和 12 天)&lt;br /&gt;
- 第 6 天沒有罷會，因為它屬於假日 (星期五) 。由此可知我們在 2 週內損失了 5 個工作天&lt;/p&gt;
-&lt;p&gt;在這個問題中，您要計算出這 N 天內我們因為罷會損失多少工作天&lt;/p&gt;
-&lt;h2 id=&#34;程式碼一覽&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程式碼一覽&#34;&gt;#&lt;/a&gt; 程式碼一覽&lt;/h2&gt;
-&lt;h3 id=&#34;c版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#c版本&#34;&gt;#&lt;/a&gt; C++ 版本&lt;/h3&gt;
-&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;bits/stdc++.h&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; t&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; p&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;//t 組測資，n 天，p 個政體 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; t&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;t&lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; p&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;// 輸入政體遊行的週期，找出最小週期 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; party&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;p&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; min_duration &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; INT_MAX&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; p &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			cin &lt;span class=&#34;token operator&#34;&gt;&gt;&gt;&lt;/span&gt; party&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			min_duration &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;party&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; min_duration&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;//  找出在 n 天內，有幾次政體遊行 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; total_hartals &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; min_duration &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;=&lt;/span&gt; n &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token comment&#34;&gt;// 一週的開始設為星期日，星期五和星期六不遊行 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token keyword&#34;&gt;continue&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token comment&#34;&gt;// 確認當前有沒有政體有遊行 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; p &lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt;party&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;					total_hartals&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;					&lt;span class=&#34;token keyword&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		cout &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; total_hartals &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;解題思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解題思路&#34;&gt;#&lt;/a&gt; 解題思路&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;公倍數的概念即可以求這一題&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;創建一個一維陣列，用來存取政黨罷工的週期&lt;/li&gt;
-&lt;li&gt;找出最小的週期，將計算的起始點設在此&lt;/li&gt;
-&lt;li&gt;從起始點開始，檢查每一天是否有政黨罷工
-&lt;ol&gt;
-&lt;li&gt;遇到假日（星期五、六）略過&lt;/li&gt;
-&lt;li&gt;遇到政黨罷工，罷工天數＋１&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;輸出罷工天數&lt;/li&gt;
-&lt;/ol&gt;
  ]]></description>
         </item>
     </channel>
