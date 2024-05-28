@@ -1,0 +1,769 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Categories">
+<meta property="og:url" content="http://example.com/categories/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Categories - Hexo</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 60vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Alvin Huang</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Categories"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+
+
+
+<div class="category-list">
+  
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="CPE"
+        id="heading-39ef7bcd6d496071afd8be0db3171931" role="tab" data-toggle="collapse" href="#collapse-39ef7bcd6d496071afd8be0db3171931"
+        aria-expanded="false"
+      >
+        CPE
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/CPE/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>51</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-39ef7bcd6d496071afd8be0db3171931"
+           role="tabpanel" aria-labelledby="heading-39ef7bcd6d496071afd8be0db3171931">
+        
+        
+          
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2024/05/28/CPE/CPE%20%E8%80%83%E8%A9%A6%E7%A7%98%E7%AC%88/" title="CPE 考試密笈"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">CPE 考試密笈</span>
+        </a>
+      
+    
+  </div>
+
+          
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="一顆星"
+        id="heading-dc1c723c6c14984fd0c00cba91882225" role="tab" data-toggle="collapse" href="#collapse-dc1c723c6c14984fd0c00cba91882225"
+        aria-expanded="false"
+      >
+        一顆星
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>50</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-dc1c723c6c14984fd0c00cba91882225"
+           role="tabpanel" aria-labelledby="heading-dc1c723c6c14984fd0c00cba91882225">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%203n+1%20problem/" title="The 3n+1 problem"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">The 3n+1 problem</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Train%20Swapping/" title="Train Swapping"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Train Swapping</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%20Hotel%20with%20Infinite%20Rooms/" title="The Hotel with Infinite Rooms"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">The Hotel with Infinite Rooms</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Vito&#39;s%20Family/" title="Vito’s Family"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Vito’s Family</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/What%20is%20the%20Probability/" title="What is the Probability"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">What is the Probability</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/You%20can%20say%2011/" title="You can say 11"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">You can say 11</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/What&#39;s%20Cryptanalysis/" title="What&#39;s Cryptanalysis?"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">What&#39;s Cryptanalysis?</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Palindrome/" title="Palindrome"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Palindrome</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Primary%20Arithmetic/" title="Primary Arithmetic"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Primary Arithmetic</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Parity/" title="Parity"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Parity</span>
+        </a>
+      
+    
+      
+      
+        <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="list-group-item list-group-item-action">
+          <span class="category-post">More...</span>
+        </a>
+        
+  </div>
+
+        
+      </div>
+    </div>
+  
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="English reading"
+        id="heading-05d78995c155d83ffab19d1dd2c7ff25" role="tab" data-toggle="collapse" href="#collapse-05d78995c155d83ffab19d1dd2c7ff25"
+        aria-expanded="false"
+      >
+        English reading
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/English-reading/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>4</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-05d78995c155d83ffab19d1dd2c7ff25"
+           role="tabpanel" aria-labelledby="heading-05d78995c155d83ffab19d1dd2c7ff25">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2024/05/28/English_reading/%E7%88%9B%E5%B0%BE%E6%A8%93%E9%A2%A8%E6%9A%B4/China%20housing%20crisis%20The%20people%20living%20in%20unfinish/" title="China housing crisis The people living in unfinished apartments"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">China housing crisis The people living in unfinished apartments</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/English_reading/Different%20forms%20of%20Windows%20and%20Macs%20Linux/Different%20forms%20of%20Windows%20and%20Macs%20Linux/" title="Different forms of Windows and Macs The Linux"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Different forms of Windows and Macs The Linux</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/English_reading/Taiwan%E2%80%99s%20housing%20market%20is%20losing%20steam/Taiwan%E2%80%99s%20housing%20market%20is%20losing%20steam/" title="Taiwan’s housing market is losing steam"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Taiwan’s housing market is losing steam</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/English_reading/How%20I%20Built%20My%20Blogger/How%20I%20Built%20My%20Blogger/" title="How I Built My Blogger"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">How I Built My Blogger</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Markdown"
+        id="heading-2182a74bab7188d959e795d9301e87ff" role="tab" data-toggle="collapse" href="#collapse-2182a74bab7188d959e795d9301e87ff"
+        aria-expanded="false"
+      >
+        Markdown
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/Markdown/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>3</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-2182a74bab7188d959e795d9301e87ff"
+           role="tabpanel" aria-labelledby="heading-2182a74bab7188d959e795d9301e87ff">
+        
+        
+          
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2024/05/28/Markdown/Markdown%E8%AA%9E%E6%B3%95/" title="Markdown 語法"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Markdown 語法</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/Markdown/Markdown%20%E4%BB%8B%E7%B4%B9/" title="Markdown 介紹"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Markdown 介紹</span>
+        </a>
+      
+    
+  </div>
+
+          
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Notion"
+        id="heading-b1b71398b3cdc71e2d12f79fe23881f9" role="tab" data-toggle="collapse" href="#collapse-b1b71398b3cdc71e2d12f79fe23881f9"
+        aria-expanded="false"
+      >
+        Notion
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/Markdown/Notion/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>1</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-b1b71398b3cdc71e2d12f79fe23881f9"
+           role="tabpanel" aria-labelledby="heading-b1b71398b3cdc71e2d12f79fe23881f9">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2024/05/28/Markdown/Notion/Notion%E4%BB%8B%E7%B4%B9/" title="Notion 介紹"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Notion 介紹</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="Hexo"
+        id="heading-c00d1eb68b529768ba98c975c76a9b66" role="tab" data-toggle="collapse" href="#collapse-c00d1eb68b529768ba98c975c76a9b66"
+        aria-expanded="false"
+      >
+        Hexo
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/Hexo/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>2</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-c00d1eb68b529768ba98c975c76a9b66"
+           role="tabpanel" aria-labelledby="heading-c00d1eb68b529768ba98c975c76a9b66">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2024/05/28/Hexo/Hexo%20%E7%B6%B2%E7%AB%99%E9%81%8B%E8%A1%8C/" title="Hexo 網站運行"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Hexo 網站運行</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2024/05/28/Hexo/Hexo%20%E6%9E%B6%E8%A8%AD%E7%92%B0%E5%A2%83/" title="Hexo 架構說明"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Hexo 架構說明</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="note"
+        id="heading-aad653ca3ee669635f2938b73098b6d7" role="tab" data-toggle="collapse" href="#collapse-aad653ca3ee669635f2938b73098b6d7"
+        aria-expanded="false"
+      >
+        note
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/note/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>1</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-aad653ca3ee669635f2938b73098b6d7"
+           role="tabpanel" aria-labelledby="heading-aad653ca3ee669635f2938b73098b6d7">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2024/05/28/%E7%AD%86%E8%A8%98%E8%BB%9F%E9%AB%94/Notion%20vs%20Obsidian/" title="Notion vs. Obsidian"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Notion vs. Obsidian</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>

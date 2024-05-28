@@ -1,0 +1,952 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/4/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Hexo</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Alvin Huang</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="一個泥沼中打滾的資工系學生"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/GCD/" target="_self">
+          GCD
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/GCD/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA11417::: 題目一覽（照片或PDF檔）此題的 PDF 於 Online Judge 中已經失效，所以這邊使用銘傳大學的影片當作題目 銘傳資傳系 CPE 035 UVa11417-GCD 中文翻譯已知 N 的值，你必須求 G。G 的定義如下： $$G &#x3D; \sum^{i&lt;N}{i&#x3D;1}\sum^{j\leq N}
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Funny%20Encryption%20Method/" target="_self">
+          Funny Encryption Method
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Funny%20Encryption%20Method/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10019::: 題目一覽（照片或PDF檔）p10019.pdf 中文翻譯一位來自墨西哥蒙特瑞技術研究學院(ITESM Campus Monterrey)的學生想發表一種新的數值加密演算法。演算法步驟如下：  讀入一個整數N，N為欲加密的數字：N &#x3D; 265 將N當作十進位的數值：X1 &#x3D; 265(decimal) 把X1
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hartals/" target="_self">
+          Hartals
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hartals/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10050::: 題目一覽（照片或PDF檔）p10050.pdf 中文翻譯一個社會研究組織採用了一組簡單的參數來模擬我們國家政黨運作的行為 參數之一是一個正整數h，h稱為罷會 ( hartal ) 參數，它表示同一個政黨連續兩次罷會的間隔天數 儘管該參數有點過於簡單，但還是能用於預測政黨罷會造成的影響。 測資說明：考慮現在有三個政黨。假設h1
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hardwood%20Species/" target="_self">
+          Hardwood Species
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hardwood%20Species/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10026::: 題目一覽（照片或PDF檔）此題的 PDF 於 Online Judge 中已經失效，所以這邊使用銘傳大學的影片當作題目 銘傳資傳系 CPE 043 UVa10226-Hardwood Species 中文翻譯美國國家資源局使用衛星影像技術來調查森林中的樹種，你的任務就是根據輸入的樹木名稱，計算各樹種所佔的百分比。 輸入的第1
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hashmat%20the%20brave%20warrior/" target="_self">
+          Hashmat the brave warrior
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hashmat%20the%20brave%20warrior/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10055::: 題目一覽（照片或PDF檔）p10055.pdf 中文翻譯開戰前，Hashmat 都會去計算敵我之間的兵力差距，而且敵方的兵力永遠大於 Hashmat  給定兩個整數（0 &lt; a &lt; b &lt; 2^32），輸入的順序未排列 輸出兵力差距（正數）  程式碼一覽C++版本12345678#include&lt;bi
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Jolly%20Jumpers/" target="_self">
+          Jolly Jumpers
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Jolly%20Jumpers/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10038::: 題目一覽（照片或PDF檔）p10038.pdf 中文翻譯 每一列輸入的第一個數 n 代表接下來有 n 筆數字要輸入 相鄰兩數絕對值的差要介於 1 ~ n-1 的區間 而且所有的差要恰好擁有從 1 ~ n-1 的所有數字。 同時符合以上，才能稱作 Jolly ，反之則稱為 Not jolly  程式碼一覽C++版本123456
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/List%20of%20Conquests/" target="_self">
+          List of Conquests
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/List%20of%20Conquests/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10420::: 題目一覽（照片或PDF檔）p10420.pdf 中文翻譯Leporello 用一份清單記錄下他一生當中被愛上的女士，每一位女士的名子前都會註記上她的國籍以方便統計人數，請寫出一份計算的程式，用來統計每一個國家有幾位女士。  輸入國家和人名，輸出國名與人數 需要注意的有： 第一行輸入整數 n 代表人數 (最多 2000) 接下
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Mutant%20Flatworld%20Explorers/" target="_self">
+          Mutant Flatworld Explorers
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Mutant%20Flatworld%20Explorers/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA118::: 題目一覽（照片或PDF檔）此題的 PDF 於 Online Judge 中已經失效，所以這邊使用銘傳大學的影片當作題目 銘傳資傳系 CPE 047 UVa118-Mutant Flatworld Explorers 中文翻譯給你一塊矩形土地的長寬，再依序給定每個機器人的初始位置狀況及一連串的指令集，你必須用你的程式求出每個機器人
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/MineSweeper/" target="_self">
+          MineSweeper
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/MineSweeper/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10189::: 題目一覽（照片或PDF檔）此題的 PDF 於 Online Judge 中已經失效，所以這邊使用銘傳大學的影片當作題目 銘傳資傳系  CPE 044 UVa10189-Minesweeper 中文翻譯您玩過《踩地雷》嗎？這是一款可愛的小遊戲，遊戲的目標是找到所有M×N地圖內的地雷。 為了幫助您，遊戲在一個正方形中顯示一個數字
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Largest%20Square/" target="_self">
+          Largest Square
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Largest%20Square/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10908::: 題目一覽（照片或PDF檔）此題的 PDF 於 Online Judge 中已經失效，所以這邊使用銘傳大學的影片當作題目 銘傳資傳系 CPE 036 UVa10908-Largest Square 中文翻譯給定一個字元矩形，您必須找出最大正方形的邊的長度。在其中正方形內的所有字元皆相同，並且正方形的中心(兩個對角線的交點)位於
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/page/3/#board"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/#board">2</a><a class="page-number" href="/page/3/#board">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/#board">5</a><a class="page-number" href="/page/6/#board">6</a><a class="page-number" href="/page/7/#board">7</a><a class="extend next" rel="next" href="/page/5/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>

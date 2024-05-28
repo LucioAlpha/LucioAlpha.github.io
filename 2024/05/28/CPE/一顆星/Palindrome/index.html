@@ -1,0 +1,688 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content=":::info星星難度: ⭐類型: 考古題題號: UVA401::: 題目一覽（照片或PDF檔）401.pdf 中文翻譯給定一串字列，判斷是否符合下列條件：  若前後讀起來相同，如：ABCBA，那就是【Palindrome】回文 若前後的單字剛好鏡像，如：2A3MEAS，那就是【mirrored string】鏡像文字 若字列同時符合上述兩個條件，如：ATOYOTA，則稱之為【mirrored P">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Palindrome">
+<meta property="og:url" content="http://example.com/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Palindrome/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content=":::info星星難度: ⭐類型: 考古題題號: UVA401::: 題目一覽（照片或PDF檔）401.pdf 中文翻譯給定一串字列，判斷是否符合下列條件：  若前後讀起來相同，如：ABCBA，那就是【Palindrome】回文 若前後的單字剛好鏡像，如：2A3MEAS，那就是【mirrored string】鏡像文字 若字列同時符合上述兩個條件，如：ATOYOTA，則稱之為【mirrored P">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-05-28T11:34:39.827Z">
+<meta property="article:modified_time" content="2024-01-31T07:20:57.670Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Palindrome - Hexo</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Alvin Huang</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Palindrome"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-05-28 19:34" pubdate>
+          May 28, 2024 pm
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          705 words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          6 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Palindrome</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>:::info<br>星星難度: ⭐<br>類型: 考古題<br>題號: UVA401<br>:::</p>
+<h2 id="題目一覽（照片或PDF檔）"><a href="#題目一覽（照片或PDF檔）" class="headerlink" title="題目一覽（照片或PDF檔）"></a>題目一覽（照片或PDF檔）</h2><p><a href="Palindrome%208efa14ec777d456887487e1a47f6768e/401.pdf">401.pdf</a></p>
+<h2 id="中文翻譯"><a href="#中文翻譯" class="headerlink" title="中文翻譯"></a>中文翻譯</h2><p>給定一串字列，判斷是否符合下列條件：</p>
+<ol>
+<li>若前後讀起來相同，如：ABCBA，那就是【Palindrome】回文</li>
+<li>若前後的單字剛好鏡像，如：2A3MEAS，那就是【mirrored string】鏡像文字</li>
+<li>若字列同時符合上述兩個條件，如：ATOYOTA，則稱之為【mirrored Palindrome】鏡像且回文</li>
+</ol>
+<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//使用Java的考生請注意，最外層的類別(class)需命名為 main 。</span></span><br><span class="line"><span class="comment">//如果遇到超乎想像的狀況，請更改編譯器試看看!! 各編譯器特性不同!!</span></span><br><span class="line"><span class="comment">//預設測資、隨機測資、固定測資是用來幫助除錯用的。批改時，只看暗中測資是否通過!!</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">testPalindrome</span><span class="params">(string arr, <span class="type">int</span> a, <span class="type">int</span> b)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(a &gt;= b)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span>(arr[a] == arr[b])&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">testPalindrome</span>(arr, a+<span class="number">1</span>, b<span class="number">-1</span>); </span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">testMirrored</span><span class="params">(string arr, <span class="type">int</span> a, <span class="type">int</span> b)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(a &gt;= b)&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">switch</span>(arr[a])&#123;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;2&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;S&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;3&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;E&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;5&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;Z&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;J&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;L&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;S&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;2&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;E&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;3&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;Z&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;5&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    	<span class="keyword">case</span> <span class="string">&#x27;L&#x27;</span>:</span><br><span class="line">    		arr[a] = <span class="string">&#x27;J&#x27;</span>;</span><br><span class="line">    		<span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span>(arr[a] == arr[b])&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">testMirrored</span>(arr, a+<span class="number">1</span>, b<span class="number">-1</span>); </span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    string input;</span><br><span class="line">    <span class="keyword">while</span>(cin&gt;&gt;input &amp;&amp; !cin.<span class="built_in">eof</span>())&#123;</span><br><span class="line">        <span class="type">int</span> len = input.<span class="built_in">size</span>()<span class="number">-1</span>;</span><br><span class="line">        <span class="type">int</span> result_palind = <span class="built_in">testPalindrome</span>(input, <span class="number">0</span>, len);</span><br><span class="line">        <span class="type">int</span> result_mirrored = <span class="built_in">testMirrored</span>(input, <span class="number">0</span>, len);</span><br><span class="line">        </span><br><span class="line">        cout &lt;&lt; input &lt;&lt; <span class="string">&quot; -- &quot;</span>;</span><br><span class="line">				<span class="keyword">if</span>(result_palind &amp;&amp; result_mirrored)&#123;</span><br><span class="line">		      <span class="built_in">puts</span>(<span class="string">&quot;is a mirrored palindrome.&quot;</span>);</span><br><span class="line">				&#125;<span class="keyword">else</span> <span class="keyword">if</span>(result_mirrored)&#123;</span><br><span class="line">					<span class="built_in">puts</span>(<span class="string">&quot;is a mirrored string.&quot;</span>);</span><br><span class="line">				&#125;<span class="keyword">else</span> <span class="keyword">if</span>(result_palind)&#123;</span><br><span class="line">					<span class="built_in">puts</span>(<span class="string">&quot;is a regular palindrome.&quot;</span>);</span><br><span class="line">				&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">					<span class="built_in">puts</span>(<span class="string">&quot;is not a palindrome.&quot;</span>);</span><br><span class="line">				&#125;</span><br><span class="line">				<span class="built_in">puts</span>(<span class="string">&quot;&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>這題看似很難，實際上要算的東西只有一點點而已，不彷參閱之前的程式練習題</p>
+<p><a href="../../%E8%AE%80%E6%9B%B8%E6%9C%83%E9%A6%96%E9%A0%81%20da2b876d04d3429187bf9643479ec5ff/%E4%B8%8A%E8%AA%B2%E7%AD%86%E8%A8%98%E7%B8%BD%E8%A6%BD%20a775e73047084a9fb053dcf3256241ae/%E6%89%80%E6%9C%89%E7%AD%86%E8%A8%98%E4%B9%8B%E5%AD%B8%E5%B9%B4%E5%BA%A6%E4%B8%8A%E4%B8%8B%E5%AD%B8%E6%9C%9F%E7%B8%BD%E8%A6%BD%2063975aa1981b479099eb27a8995d1576/2023%20%E4%B8%8A%E5%AD%B8%E6%9C%9F%203b660802002f4e89ba641d508f08e109/%E6%89%80%E6%9C%89%E8%AA%B2%E7%A8%8B%200cbaa55dafff44cf8a6026b44452a805/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%20i%E3%80%81ii%20f0a347ae13f944f8b2afa1ef15063464/%E7%AD%86%E8%A8%98%E7%B8%BD%E8%A6%BD%20b843dbf89a2a43b0ab6cd1d36f300a48/12%2013%20%E7%AC%AC%E4%B8%80%E9%A1%8C%20%E5%9B%9E%E6%96%87%20c2aff093e16c46b893634a0cf6f9c84e.md">12&#x2F;13 第一題 回文</a></p>
+<p>利用開頭與結尾相對照就可以輕鬆解題</p>
+<p>鏡像文字看起來很麻煩，實際上只要將字列左半邊的文字先行轉換成鏡像文字，就可以直接判斷了</p>
+<h3 id="解題步驟（C-）："><a href="#解題步驟（C-）：" class="headerlink" title="解題步驟（C++）："></a>解題步驟（C++）：</h3><ol>
+<li>創建一個 string 用來存取輸入的字列，len 存取字列長度</li>
+<li>創建 testPalindrome 測試是否為回文<ol>
+<li>檢查位於第 start 項的字元是否等於第 end 項的字元</li>
+<li>是，進行遞迴</li>
+<li>否，回傳 ０（不是回文）</li>
+<li>當 start ≥ end（判斷結束時），回傳１（是回文）</li>
+</ol>
+</li>
+<li>創建 testMirrored 測試是否為鏡像文字<ol>
+<li>判斷步驟相當於 testPalindrome</li>
+<li>新增 switch 來轉換左側的字元為鏡像文字</li>
+<li>進行前後比對</li>
+<li>是，進行遞迴</li>
+<li>否，回傳０（不是鏡像文字）</li>
+<li>當 start ≥ end（判斷結束時），回傳１（是鏡像文字）</li>
+</ol>
+</li>
+<li>將 testPalindrome 和 testMirrored 的傳回值分別存取<ol>
+<li>皆符合：Mirrored Palindrome</li>
+<li>只符合 Mirrored：Mirrored string</li>
+<li>只符合 Palindrome：regular Palindrome </li>
+<li>皆不符合：no palindrome</li>
+</ol>
+</li>
+</ol>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Palindrome</div>
+      <div>http://example.com/2024/05/28/CPE/一顆星/Palindrome/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>John Doe</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>May 28, 2024</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>Licensed under</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - Non-commercial">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - Share-alike">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/What&#39;s%20Cryptanalysis/" title="What&#39;s Cryptanalysis?">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">What&#39;s Cryptanalysis?</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Primary%20Arithmetic/" title="Primary Arithmetic">
+                        <span class="hidden-mobile">Primary Arithmetic</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>Table of Contents</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>

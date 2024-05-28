@@ -1,0 +1,952 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>Hexo</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Alvin Huang</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>About</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="一個泥沼中打滾的資工系學生"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Train%20Swapping/" target="_self">
+          Train Swapping
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Train%20Swapping/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA299::: 題目一覽（照片或PDF檔）此題的 PDF 於 Online Judge 中已經失效，所以這邊使用銘傳大學的影片當作題目 銘傳資傳系 CPE 042 UVa299-Train Swapping 中文翻譯 輸入火車的排列狀態，輸出需要交換多少次以排好順序 需要注意的有： 輸入第一行一個整數 N 代表測資數 每筆測資第一行 L 代表火
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%20Hotel%20with%20Infinite%20Rooms/" target="_self">
+          The Hotel with Infinite Rooms
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%20Hotel%20with%20Infinite%20Rooms/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10170::: 題目一覽（照片或PDF檔）p10170.pdf 中文翻譯有一間很奇怪的旅館，他有無限多的房間。來到這家旅館的旅行團都遵守以下的規則：  同一個時間只能住一個旅行團。 每一旅行團在一早就住進旅館，然後在另一天的晚上離開。 上一個旅行團離開之後，隔天早上另一旅行團即住進。 除了第一個旅行團之外，每個剛來的旅行團的人數都比上一個旅
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Vito&#39;s%20Family/" target="_self">
+          Vito’s Family
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Vito&#39;s%20Family/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10041::: 題目一覽（照片或PDF檔）p10041.pdf 中文翻譯維克托要在紐約找房子，他希望這間房子離他所有親戚家的距離總和為最小值  輸入第一列會給定一個數字（T），標示有幾組測資要進行輸入 每組測資的開頭會給定一個數字（0 &lt; r &lt; 500），標示有幾筆測資要進行輸入 輸入有可能重複的測資（0 &lt; s &lt
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/What%20is%20the%20Probability/" target="_self">
+          What is the Probability
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/What%20is%20the%20Probability/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10056::: 題目一覽（照片或PDF檔）p10056.pdf 中文翻譯透過輸入值計算第 i 個人達成特定事件的機率。 r：回合數，n：總人數，p：成功機率，q &#x3D; (1- p)：失敗機率。  第一列輸入一個值 S （S &lt; 1000）代表接下來有 S 列的輸入 每列輸入值都有三個值 第一個值 n 代表玩家的總人數 第二個值
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/You%20can%20say%2011/" target="_self">
+          You can say 11
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/You%20can%20say%2011/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10929::: 題目一覽（照片或PDF檔）p10929.pdf 中文翻譯給定一個數字，是求它是否為11的倍數 當輸入的數字為0時，程式結束 數字大小：1 ~ 1000位數 程式碼一覽C++版本1234567891011121314151617181920212223242526272829#include&lt;bits/stdc++.h&
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/What&#39;s%20Cryptanalysis/" target="_self">
+          What&#39;s Cryptanalysis?
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/What&#39;s%20Cryptanalysis/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10008::: 題目一覽（照片或PDF檔）p10008.pdf 中文翻譯密碼翻譯（cryptanalysis）是指把某個人寫的密文（cryptographic writing）加以分解。這個程序通常會對密文訊息做統計分析。你的任務就是寫一個程式來對密文作簡單的分析。 輸入的第1列有一個正整數n，代表以下有多少列需要作分析的密文。 接下來的n
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Palindrome/" target="_self">
+          Palindrome
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Palindrome/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 考古題題號: UVA401::: 題目一覽（照片或PDF檔）401.pdf 中文翻譯給定一串字列，判斷是否符合下列條件：  若前後讀起來相同，如：ABCBA，那就是【Palindrome】回文 若前後的單字剛好鏡像，如：2A3MEAS，那就是【mirrored string】鏡像文字 若字列同時符合上述兩個條件，如：ATOYOTA，則稱之為【mirrored P
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Primary%20Arithmetic/" target="_self">
+          Primary Arithmetic
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Primary%20Arithmetic/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10035::: 題目一覽（照片或PDF檔）p10035.pdf 中文翻譯給定 2 個數字（小於 10 位數），求兩者相加之後，有幾次進位發生  一次以上（ｎ次）：n carry operations 剛好一次：1 carry operation 完全沒有：No carry operation  輸入的終止條件為【兩數皆同時為０】的時候 程式
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Parity/" target="_self">
+          Parity
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Parity/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA10931::: 題目一覽（照片或PDF檔）p10931.pdf 中文翻譯整數 n 的「同位元」定義為：其二進位表示法中每位元的和再除以 2 的餘數。 例如：21 &#x3D; 101012 的二進位有三個 1，因此它的同位元為 3 (mod 2)，或 1。 在此，你要計算一個整數 1 ≤ I ≤ 2147483647 的同位元。 輸入的每一
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Problem%20J%20Summing%20Digits/" target="_self">
+          Problem J Summing Digits
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Problem%20J%20Summing%20Digits/" target="_self">
+        <div>
+          :::info星星難度: ⭐類型: 基礎題題號: UVA11332::: 題目一覽（照片或PDF檔）p10222.pdf 中文翻譯定義一個函式 f(n) 是所有十進位數字位數的總和，再 f(f(n))、f(f(f(n)))……，直到只剩下個位數為止並定義該值為 g(n)。  輸入的每一行會有一個正整數 n，其值最大到 2×10^9 必須輸出g(n)。輸入是以0值做為結束，該值不需要輸出  程式碼一
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-05-28 19:34" pubdate>
+              2024-05-28
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/CPE/" class="category-chain-item">CPE</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/" class="category-chain-item">一顆星</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#board">3</a><a class="page-number" href="/page/4/#board">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/#board">7</a><a class="extend next" rel="next" href="/page/3/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
