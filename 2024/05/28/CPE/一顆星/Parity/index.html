@@ -57,6 +57,11 @@
 <link  rel="stylesheet" href="/css/main.css" />
 
 
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
 
 
 
@@ -274,7 +279,7 @@
 <p>在此，你要計算一個整數 <strong>1 ≤ I ≤ 2147483647</strong> 的同位元。</p>
 <p>輸入的每一行有一個整數 <strong>I</strong>，而 <strong>I &#x3D; 0</strong> 表示輸入結束，該行無需處理。</p>
 <p>對於輸入中的每個整 <strong>I</strong>，你要印一行 **The parity of B is P (mod 2).**，其中 <strong>B</strong> 是 <strong>I</strong> 的二進位表示法。</p>
-<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">Decimal_to_Binary_count</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> total = <span class="number">0</span>, tmp;</span><br><span class="line">	<span class="keyword">while</span>(n != <span class="number">0</span>)&#123;</span><br><span class="line">		tmp = (n%<span class="number">2</span> == <span class="number">0</span>? <span class="number">0</span>:<span class="number">1</span>);</span><br><span class="line">		total += tmp;</span><br><span class="line">		n/=<span class="number">2</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> total;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Decimal_to_Binary</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> tmp;</span><br><span class="line">	<span class="keyword">if</span>(n != <span class="number">0</span>)&#123;</span><br><span class="line">		tmp = (n%<span class="number">2</span> == <span class="number">0</span>? <span class="number">0</span>:<span class="number">1</span>);</span><br><span class="line">		n /= <span class="number">2</span>;</span><br><span class="line">		<span class="built_in">Decimal_to_Binary</span>(n);</span><br><span class="line">		cout &lt;&lt; tmp;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> input;</span><br><span class="line">	<span class="keyword">while</span>(cin &gt;&gt; input &amp;&amp; !cin.<span class="built_in">eof</span>())&#123;</span><br><span class="line">		<span class="keyword">if</span>(input == <span class="number">0</span>)&#123;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="type">int</span> sum = <span class="built_in">Decimal_to_Binary_count</span>(input);</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;The parity of &quot;</span>;</span><br><span class="line">		<span class="built_in">Decimal_to_Binary</span>(input);</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot; is &quot;</span> &lt;&lt; sum &lt;&lt; <span class="string">&quot; (mod 2).&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">Decimal_to_Binary_count</span><span class="hljs-params">(<span class="hljs-type">int</span> n)</span></span>&#123;<br>	<span class="hljs-type">int</span> total = <span class="hljs-number">0</span>, tmp;<br>	<span class="hljs-keyword">while</span>(n != <span class="hljs-number">0</span>)&#123;<br>		tmp = (n%<span class="hljs-number">2</span> == <span class="hljs-number">0</span>? <span class="hljs-number">0</span>:<span class="hljs-number">1</span>);<br>		total += tmp;<br>		n/=<span class="hljs-number">2</span>;<br>	&#125;<br>	<span class="hljs-keyword">return</span> total;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Decimal_to_Binary</span><span class="hljs-params">(<span class="hljs-type">int</span> n)</span></span>&#123;<br>	<span class="hljs-type">int</span> tmp;<br>	<span class="hljs-keyword">if</span>(n != <span class="hljs-number">0</span>)&#123;<br>		tmp = (n%<span class="hljs-number">2</span> == <span class="hljs-number">0</span>? <span class="hljs-number">0</span>:<span class="hljs-number">1</span>);<br>		n /= <span class="hljs-number">2</span>;<br>		<span class="hljs-built_in">Decimal_to_Binary</span>(n);<br>		cout &lt;&lt; tmp;<br>	&#125;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>	<span class="hljs-type">int</span> input;<br>	<span class="hljs-keyword">while</span>(cin &gt;&gt; input &amp;&amp; !cin.<span class="hljs-built_in">eof</span>())&#123;<br>		<span class="hljs-keyword">if</span>(input == <span class="hljs-number">0</span>)&#123;<br>			<span class="hljs-keyword">break</span>;<br>		&#125;<br>		<span class="hljs-type">int</span> sum = <span class="hljs-built_in">Decimal_to_Binary_count</span>(input);<br>		cout &lt;&lt; <span class="hljs-string">&quot;The parity of &quot;</span>;<br>		<span class="hljs-built_in">Decimal_to_Binary</span>(input);<br>		cout &lt;&lt; <span class="hljs-string">&quot; is &quot;</span> &lt;&lt; sum &lt;&lt; <span class="hljs-string">&quot; (mod 2).&quot;</span> &lt;&lt; endl;<br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>類似題目如下連結，進位制的轉換也寫在裡面：</p>
 <p><a href="Funny%20Encryption%20Method%2026d4d712214e4823839ffed511732879.md"><strong>Funny Encryption Method</strong></a></p>
@@ -384,9 +389,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Sort!%20Sort!!%20and%20Sort!!!/" title="Sort! Sort!! and Sort!!!">
+                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Palindrome/" title="Palindrome">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Sort! Sort!! and Sort!!!</span>
+                        <span class="hidden-mobile">Palindrome</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
@@ -394,8 +399,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Symmetric%20Matrix/" title="Symmetric Matrix">
-                        <span class="hidden-mobile">Symmetric Matrix</span>
+                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Primary%20Arithmetic/" title="Primary Arithmetic">
+                        <span class="hidden-mobile">Primary Arithmetic</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -433,6 +438,9 @@
 
 
 
+
+
+  
 
 
 

@@ -57,6 +57,11 @@
 <link  rel="stylesheet" href="/css/main.css" />
 
 
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
 
 
 
@@ -270,7 +275,7 @@
                 <p>:::info<br>星星難度: ⭐<br>類型: 基礎題<br>題號: UVA10071<br>:::</p>
 <h2 id="題目一覽（照片或PDF檔）"><a href="#題目一覽（照片或PDF檔）" class="headerlink" title="題目一覽（照片或PDF檔）"></a>題目一覽（照片或PDF檔）</h2><p><a href="Back%20to%20School%20Physics%200e7101f541d84991a803d291d8110d35/p10071.pdf">p10071.pdf</a></p>
 <h2 id="中文翻譯"><a href="#中文翻譯" class="headerlink" title="中文翻譯"></a>中文翻譯</h2><p>一粒子由靜止開始做等加速度運動，假設在 t 秒時速度為 v，問此粒子 2t 秒經過的位移為多少？</p>
-<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="type">float</span> v, t;</span><br><span class="line">	<span class="keyword">while</span>(cin &gt;&gt; v &gt;&gt; t &amp;&amp; cin.<span class="built_in">good</span>())&#123;</span><br><span class="line">		<span class="keyword">if</span>(v == <span class="number">0</span> || t == <span class="number">0</span>)&#123;</span><br><span class="line">			cout &lt;&lt; <span class="string">&#x27;0&#x27;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">continue</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="type">float</span> a = v/t;</span><br><span class="line">		<span class="type">float</span> s = (a*(<span class="number">2</span>*t)*(<span class="number">2</span>*t))/<span class="number">2</span>;</span><br><span class="line">		cout &lt;&lt; s &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>	<span class="hljs-type">float</span> v, t;<br>	<span class="hljs-keyword">while</span>(cin &gt;&gt; v &gt;&gt; t &amp;&amp; cin.<span class="hljs-built_in">good</span>())&#123;<br>		<span class="hljs-keyword">if</span>(v == <span class="hljs-number">0</span> || t == <span class="hljs-number">0</span>)&#123;<br>			cout &lt;&lt; <span class="hljs-string">&#x27;0&#x27;</span> &lt;&lt; endl;<br>			<span class="hljs-keyword">continue</span>;<br>		&#125;<br>		<span class="hljs-type">float</span> a = v/t;<br>		<span class="hljs-type">float</span> s = (a*(<span class="hljs-number">2</span>*t)*(<span class="hljs-number">2</span>*t))/<span class="hljs-number">2</span>;<br>		cout &lt;&lt; s &lt;&lt; endl;<br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>這一題就是純粹的物理習題，透過速度和時間，求出加速度，最後算出位移</p>
 <p>但是要記得對這種會有小數點的問題，「全部用浮點數」會比較不會出錯</p>
@@ -427,6 +432,9 @@
 
 
 
+
+
+  
 
 
 

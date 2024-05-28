@@ -57,6 +57,11 @@
 <link  rel="stylesheet" href="/css/main.css" />
 
 
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
 
 
 
@@ -281,7 +286,7 @@
 <p>例如：<br>有一個4個人的旅行團在8月1日上午住進旅館，他們會在8月4日晚上離開旅館。<br>下一個有5個人的旅行團會在8月5日住進，並且停留5天。</p>
 </blockquote>
 <p>給你第一個旅行團的人數，請你告訴我在某一天住在這家旅館的旅行團的人數有多少人。</p>
-<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="type">long</span> <span class="type">long</span> S, D;</span><br><span class="line">	<span class="keyword">while</span>(cin &gt;&gt; S &gt;&gt; D &amp;&amp; !cin.<span class="built_in">eof</span>())&#123;</span><br><span class="line">		<span class="keyword">while</span>(D != <span class="number">0</span>)&#123;</span><br><span class="line">			D -= S;</span><br><span class="line">			<span class="keyword">if</span>(D &lt;= <span class="number">0</span>)&#123;</span><br><span class="line">				cout &lt;&lt; S &lt;&lt; endl;</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span>&#123;</span><br><span class="line">				S++;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>	<span class="hljs-type">long</span> <span class="hljs-type">long</span> S, D;<br>	<span class="hljs-keyword">while</span>(cin &gt;&gt; S &gt;&gt; D &amp;&amp; !cin.<span class="hljs-built_in">eof</span>())&#123;<br>		<span class="hljs-keyword">while</span>(D != <span class="hljs-number">0</span>)&#123;<br>			D -= S;<br>			<span class="hljs-keyword">if</span>(D &lt;= <span class="hljs-number">0</span>)&#123;<br>				cout &lt;&lt; S &lt;&lt; endl;<br>				<span class="hljs-keyword">break</span>;<br>			&#125;<br>			<span class="hljs-keyword">else</span>&#123;<br>				S++;<br>			&#125;<br>		&#125;<br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><ul>
 <li>輸入第一組旅行團人數 <code>S</code>，輸出酒店內第 <code>D</code> 天的入住人數</li>
@@ -406,9 +411,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Train%20Swapping/" title="Train Swapping">
+                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/The%203n+1%20problem/" title="The 3n+1 problem">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Train Swapping</span>
+                        <span class="hidden-mobile">The 3n+1 problem</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
@@ -455,6 +460,9 @@
 
 
 
+
+
+  
 
 
 

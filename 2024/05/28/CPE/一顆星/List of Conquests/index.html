@@ -57,6 +57,11 @@
 <link  rel="stylesheet" href="/css/main.css" />
 
 
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
 
 
 
@@ -284,7 +289,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    string str;</span><br><span class="line">    map&lt;string, <span class="type">int</span>&gt; mp;</span><br><span class="line"></span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(n--)&#123;</span><br><span class="line">        cin &gt;&gt; str;</span><br><span class="line">        mp[str]++;</span><br><span class="line">        <span class="built_in">getline</span>(cin, str);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i: mp)&#123;</span><br><span class="line">        cout &lt;&lt; i.first &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; i.second &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br><br>    <span class="hljs-type">int</span> n;<br>    string str;<br>    map&lt;string, <span class="hljs-type">int</span>&gt; mp;<br><br>    cin &gt;&gt; n;<br><br>    <span class="hljs-keyword">while</span>(n--)&#123;<br>        cin &gt;&gt; str;<br>        mp[str]++;<br>        <span class="hljs-built_in">getline</span>(cin, str);<br>    &#125;<br><br>    <span class="hljs-keyword">for</span>(<span class="hljs-keyword">auto</span> i: mp)&#123;<br>        cout &lt;&lt; i.first &lt;&lt; <span class="hljs-string">&quot; &quot;</span> &lt;&lt; i.second &lt;&lt; endl;<br>    &#125;<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>這一題屬於C++相當簡單的一題，非常適合用 <code>map</code> 來實作，因為每個元素都唯一且排序，直接 <code>key</code> 放國名，<code>value</code> 放次數插入可用 <code>.insert()</code> 或 <code>.emplace()</code> 都可以；遍歷也可改用 <code>iterator</code> 的標準寫法。</p>
 
@@ -399,8 +404,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/Hashmat%20the%20brave%20warrior/" title="Hashmat the brave warrior">
-                        <span class="hidden-mobile">Hashmat the brave warrior</span>
+                      <a href="/2024/05/28/CPE/%E4%B8%80%E9%A1%86%E6%98%9F/MineSweeper/" title="MineSweeper">
+                        <span class="hidden-mobile">MineSweeper</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -438,6 +443,9 @@
 
 
 
+
+
+  
 
 
 

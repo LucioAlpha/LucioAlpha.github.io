@@ -59,6 +59,11 @@
 <link  rel="stylesheet" href="/css/main.css" />
 
 
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
 
 
 
@@ -284,7 +289,7 @@
 <li>(x2, y2) 代表目標座標</li>
 </ul>
 <p>對於每筆測試資料，請照格式輸出是第幾筆，以及要花費的最小步數</p>
-<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 對角線編號概念</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">loc</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y)</span></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> (x+y)*(x+y+<span class="number">1</span>)/<span class="number">2</span>+x;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> n, t;</span><br><span class="line">	<span class="type">int</span> x1, y1, x2, y2;</span><br><span class="line">	cin &gt;&gt; n;</span><br><span class="line">	<span class="keyword">for</span>(t = <span class="number">1</span> ; t &lt;= n ; t++)&#123;</span><br><span class="line">		cin &gt;&gt; x1 &gt;&gt; y1 &gt;&gt; x2 &gt;&gt; y2;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Case &quot;</span> &lt;&lt; t &lt;&lt; <span class="string">&quot;: &quot;</span> &lt;&lt; <span class="built_in">loc</span>(x2, y2)-<span class="built_in">loc</span>(x1, y1) &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="程式碼一覽"><a href="#程式碼一覽" class="headerlink" title="程式碼一覽"></a>程式碼一覽</h2><h3 id="C-版本"><a href="#C-版本" class="headerlink" title="C++版本"></a>C++版本</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// 對角線編號概念</span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">loc</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y)</span></span>&#123;<br>	<span class="hljs-keyword">return</span> (x+y)*(x+y+<span class="hljs-number">1</span>)/<span class="hljs-number">2</span>+x;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;<br>	<span class="hljs-type">int</span> n, t;<br>	<span class="hljs-type">int</span> x1, y1, x2, y2;<br>	cin &gt;&gt; n;<br>	<span class="hljs-keyword">for</span>(t = <span class="hljs-number">1</span> ; t &lt;= n ; t++)&#123;<br>		cin &gt;&gt; x1 &gt;&gt; y1 &gt;&gt; x2 &gt;&gt; y2;<br>		cout &lt;&lt; <span class="hljs-string">&quot;Case &quot;</span> &lt;&lt; t &lt;&lt; <span class="hljs-string">&quot;: &quot;</span> &lt;&lt; <span class="hljs-built_in">loc</span>(x2, y2)-<span class="hljs-built_in">loc</span>(x1, y1) &lt;&lt; endl;<br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
 <h2 id="解題思路"><a href="#解題思路" class="headerlink" title="解題思路"></a>解題思路</h2><p>解這題之前，我們可以發現一個規律，每一條斜線，其步數是一個等差數列</p>
 <h3 id="對角線編號公式推導-x-y"><a href="#對角線編號公式推導-x-y" class="headerlink" title="對角線編號公式推導 &#x3D; x + y"></a>對角線編號公式推導 &#x3D; x + y</h3><p>$$<br>Loc(x, y) &#x3D; 前面(含本身)所有對角線元素的總和+x<br>$$</p>
@@ -442,6 +447,9 @@
 
 
 
+
+
+  
 
 
 
